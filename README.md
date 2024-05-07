@@ -1,5 +1,10 @@
 # Deepfake Detection for Tamil Speech
 
+## Dataset Links
+
+- Real: https://drive.google.com/drive/folders/1bK68y7nNmjpwaIdFfQOWIIwXJPTVUYlr?usp=sharing
+- Fake: https://drive.google.com/drive/folders/1XUKT7kroxYVCWwu1B7Zr7uowLfMPPi9y?usp=sharing
+
 ## Abstract
 
 In today's digital landscape, the rise of deepfake content poses a serious challenge to maintaining trust and authenticity online. This paper focuses on detecting deepfake Tamil speech by leveraging advanced machine-learning techniques. Our dataset consists of two classes: "fake" and "real," representing synthetic and authentic Tamil speech recordings, respectively. We use simple yet effective methods like Chromagram, MFCC, and Mel spectrogram to extract key features from the audio data. These features are then fed into two models: a Convolutional Neural Network-Long Short-Term Memory (CNN-LSTM) and a Support Vector Machine (SVM). The CNN-LSTM excels at identifying patterns in spectrogram data, while the SVM handles classification tasks efficiently. Our experiments demonstrate the effectiveness of our approach in accurately distinguishing between genuine and falsified Tamil speech. This research contributes to enhancing the security and credibility of digital content in Tamil-speaking communities. By employing straightforward machine learning techniques, we aim to combat the spread of synthetic media manipulation and foster a safer online environment for all users.
